@@ -16,6 +16,7 @@ import logo2x from '../assets/logo/kevllar-logo-color-180@2x.png';
 import config from 'react-global-configuration';
 
 
+
 import GetCity from '../libs/CityManager';
 // Page layout
 export default class CitiesPage extends Component {

@@ -124,6 +124,7 @@ export default class DetailPage extends Component {
       } );
       return isAdded;
     }
+    //blackhorse added
     getCountryImage() {
       var application_id = config.get('application_id');
       var url = 'https://api.unsplash.com/photos/search?client_id='+ application_id +'&query=' + this.state.country;
